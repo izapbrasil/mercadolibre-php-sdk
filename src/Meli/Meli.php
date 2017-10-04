@@ -1,5 +1,7 @@
 <?php
 
+namespace Meli;
+
 class Meli {
 
 	/**

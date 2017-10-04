@@ -1,1 +1,37 @@
-{}
+{
+  "name": "izapbrasil/mercadolibre-php-sdk",
+  "description": "Fork of the official PHP SDK for Mercado Libre's Platform.",
+  "homepage": "http://developers.mercadolibre.com/",
+  "type": "library",
+  "keywords": [
+    "API",
+    "PHP",
+    "Mercado Libre",
+    "SDK",
+    "meli",
+    "integration",
+    "e-commerce"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MercadoLibre",
+      "homepage": "http://developers.mercadolibre.com/",
+      "role": "Developer"
+    },
+    {
+      "name": "Valdeci Jr",
+      "email": "valdeci.junior@izap.com.br",
+      "homepage": "https://izap.com.br",
+      "role": "Contributor"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Meli\\": "src/"
+    }
+  }
+}
